@@ -159,4 +159,4 @@ This project is intended to be a learning tool for understanding the following c
 *   Add support for more complex data structures like lists and dictionaries.
 *   Improve error messages.
 *   Implement more standard library functions.
-*   Implement a type system
+*   Implement a type system.
