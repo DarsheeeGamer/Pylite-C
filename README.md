@@ -1,2 +1,2 @@
-# Pylite-C-
+# Pylite-C++
 Pylite Programmed In C++
