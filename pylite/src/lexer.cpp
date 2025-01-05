@@ -3,7 +3,7 @@
 #include <iostream>
 #include <stdexcept>
 #include <cctype>
-
+#include <cstring>
 PyLiteLexer::PyLiteLexer(const std::string& source_code) : source_code(source_code), pos(0) {}
 
 std::vector<Token> PyLiteLexer::tokenize() {
