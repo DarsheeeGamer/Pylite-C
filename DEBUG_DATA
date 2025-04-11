@@ -1,0 +1,24 @@
+~/workspace/build$ time python3 ../test_complex.pylite
+Alice is 22 years old and has an average grade of 87.66666666666667
+Bob is 21 years old and has an average grade of 91.66666666666667
+Charlie is 23 years old and has an average grade of 80.0
+
+real    0m0.041s
+user    0m0.023s
+sys 0m0.008s
+~/workspace/build$ time ./pylite ../test_complex.pylite
+JIT compilation enabled
+Alice is 22 years old and has an average grade of 87.6667
+Bob is 21 years old and has an average grade of 91.6667
+Charlie is 23 years old and has an average grade of 80.0
+
+real    0m0.037s
+user    0m0.005s
+sys 0m0.011s
+~/workspace/build$ 
+
+
+
+
+
+
